@@ -1,4 +1,4 @@
-''#!/bin/bash
+#!/bin/bash 
 
 echo "1 - ssh" 
 echo "2 - scp"
@@ -28,4 +28,4 @@ then
             scp "$source" "$user2@remip" : "$destination"
 #the above elif literally doesnt work im so confused :(
 else 
-    echo "that's not an option! please try again!"''
+    echo "that's not an option! please try again!"
